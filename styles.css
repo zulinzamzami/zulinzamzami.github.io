@@ -1,0 +1,171 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #7d5a5a;
+  }
+
+  /* Navbar */
+  .navbar {
+    background-color: #ffe4e1;
+    margin-bottom: 50px;
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+    color: #6b5b95;
+  }
+
+  .navbar-nav .nav-link {
+    color: #6b5b95;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #d79922;
+  }
+
+  /* Header / Banner */
+  header {
+    background: linear-gradient(rgba(255, 245, 238, 0.8), rgba(255, 245, 238, 0.8)), url('header-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #6b5b95;
+  }
+
+  header .display-4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  header p.lead {
+    font-size: 1.2rem;
+  }
+
+  /* About Section */
+  #about {
+    background-color: #fff0f5;
+    padding: 30px 0;
+  }
+
+  #about p {
+    font-size: 1.1rem;
+    color: #4b3832;
+  }
+
+  /* Education Section */
+  #education {
+    background-color: #f0e5de;
+    padding: 30px 0;
+  }
+
+  #education h5 {
+    font-weight: bold;
+    color: #4b3832;
+  }
+
+  .list-group-item {
+    background-color: #ffe4e1;
+    color: #4b3832;
+    border: none;
+  }
+
+  /* Experience Section */
+  #experience {
+    background-color: #fffaf0;
+    padding: 30px 0;
+  }
+
+  #experience h5 {
+    font-weight: bold;
+    color: #4b3832;
+  }
+
+  /* Skills Section */
+  #skills {
+    background-color: #e0f7fa;
+    padding: 30px 0;
+  }
+
+  #skills h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #6b5b95;
+  }
+
+  /* Project/Portfolio Section */
+  #projects {
+    background-color: #e6ee9c;
+    padding: 30px 0;
+  }
+
+  #projects img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  #projects .card {
+    transition: transform 0.2s ease;
+    background-color: #ffe4e1;
+    border: none;
+  }
+
+  #projects .card:hover {
+    transform: scale(1.05);
+  }
+
+  /* Contact Section */
+  #contact {
+    background-color: #fff0f5;
+    padding: 30px 0;
+  }
+
+  #contact p {
+    font-size: 1.2rem;
+    color: #4b3832;
+  }
+
+  .btn-primary {
+    background-color: #ffcccb;
+    border-color: #ffcccb;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+  }
+
+  .btn-primary:hover {
+    background-color: #f7b7b7;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #6b5b95;
+    color: white;
+    padding: 15px 0;
+  }
+
+  footer p {
+    margin: 0;
+  }
+
+  /* Mobile Responsive Adjustments */
+  @media (max-width: 768px) {
+    header .display-4 {
+      font-size: 1.8rem;
+    }
+
+    header p.lead {
+      font-size: 1rem;
+    }
+
+    #skills .row div {
+      margin-bottom: 20px;
+    }
+  }
+
+  
